@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app UI correctly (snapshot) 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <form>
+        <label>
+          Width (cm):
+          <input
+            name="width"
+            required=""
+            type="number"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Height (cm):
+          <input
+            name="height"
+            required=""
+            type="number"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Length (cm):
+          <input
+            name="length"
+            required=""
+            type="number"
+            value=""
+          />
+        </label>
+        <br />
+        <label>
+          Mass (kg):
+          <input
+            name="mass"
+            required=""
+            type="number"
+            value=""
+          />
+        </label>
+        <br />
+        <button
+          type="submit"
+        >
+          Sort Package
+        </button>
+      </form>
+    </header>
+  </div>
+</DocumentFragment>
+`;
